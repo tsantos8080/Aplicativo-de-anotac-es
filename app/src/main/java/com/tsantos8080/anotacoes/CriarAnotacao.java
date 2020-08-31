@@ -28,6 +28,7 @@ public class CriarAnotacao extends AppCompatActivity {
         if (result) {
             Toast.makeText(this, "Anotação criada com sucesso.", Toast.LENGTH_SHORT).show();
             finish();
+            return;
         }
         Toast.makeText(this, "Ocorreu um erro. Tente novamente.", Toast.LENGTH_SHORT).show();
 
