@@ -14,7 +14,7 @@ public class TelaInicial extends AppCompatActivity {
         setContentView(R.layout.activity_tela_inicial);
     }
 
-    public void onClickButtonCriarAnotacao(View V) {
+    public void onClickButtonCriarAnotacao(View v) {
         startActivity(new Intent(this, CriarAnotacao.class));
     }
 }
