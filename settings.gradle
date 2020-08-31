@@ -1,0 +1,2 @@
+rootProject.name='Anotações'
+include ':app'
